@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2
+{
+    text-align: center;
+    border: 10px double black;
+}
+.intro
+{
+    background-color: orangered;
+    text-align: center;
+    margin-top: 10px;
+}
+.intro ul
+{
+    display: inline-flex;
+
+}
+.intro ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.intro ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.wis
+{
+    margin-top: 10px;
+    text-align: center;
+}
+.wis h4
+{
+    padding-bottom: 5px;
+}
+.box
+{
+    width: 110px;
+    height: 100%;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.box img
+{
+    height: 100px;
+    width: 100%;
+}
+.box a
+{
+    color: black;
+}
+.stomach
+{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    /* height: 100vh;
+    position: fixed; */
+}
+.foot
+{
+    text-align: center;
+    background-color: black;
+    color: red;
+    transition: 1s;
+}
+.foot:hover
+{
+    color: cyan;
+}
